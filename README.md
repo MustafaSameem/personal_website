@@ -2,4 +2,5 @@
 
 Can be accessed at mustafasameem.com
 
-Continously working on it to make a personal website
+Continously working on it to make a personal portfolio
+
