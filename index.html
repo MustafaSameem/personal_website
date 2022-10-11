@@ -3,46 +3,51 @@
 <head>
 <style>
 
+body {
+  font-family: Trebuchet MS;
+}
+
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #46545d;
+  background-color: #151b29;
+  font-size:100%;
 }
-
 li {
   float: left;
 }
-
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 16px;
+  padding: 15px;
   text-decoration: none;
-}
 
+}
 li a:hover {
   background-color: #992600;
 }
 
-body {
-	background-image: linear-gradient(to right, #29323c, #485563);
-}
-h1 {
-	color: white; 
-	font-family: Times new roman;
-	font-size:250%;
-	border:1px solid #46545d;
-	padding: 5px;
+
+
+.headers{
+	color: #151b29; 
+	padding: 4px;
 	text-align: center;
+    background-color: #f5f8ff;
 }   
-p {
-	color: white; 
-	font-family: Times new roman;
+.text {
+	color: #009900; 
 	text-align: center;
 }
+
+.neutral {
+     margin-bottom: 3cm;
+  }
+
 
 </style>
 </head>
@@ -57,9 +62,21 @@ p {
   <li><a href="#Contact">Contact Me</a></li>
 </ul>
 
-<h1>Personal Website</h1>
-	<p>Hello this is my personal website. </p>
-    <p>I am continously working on making it.</p>
+
+<div class="headers"> 
+<h1>Personal Website.</h1>
+<p> (continously being improved)</p>
+</div>
+
+	<hr> 
+
+<div class="neutral">
+<h2 id="About">About</h2>
+<p> Hello, my name is Mustafa Sameem <br> and I am a 2nd year software engineering <br> student in Montreal, Canada. </p>
+</div>
+
+
 
 </body>
 </html>
+
